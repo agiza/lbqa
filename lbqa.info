@@ -1,0 +1,8 @@
+core = "6.x"
+name = "Lullabot QA"
+package = "Dev/QA"
+description = "Lullabot QA is a <a href='http://drupal.org/project/features'>Feature</a> that aids in Site QA."
+project = "lbqa"
+recommends[] = "feedback"
+recommends[] = "unfuddle_feedback"
+recommends[] = "browscap"
