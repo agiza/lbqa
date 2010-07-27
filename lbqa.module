@@ -7,6 +7,13 @@
  */
 
 /**
+ * Implementation of hook_init().
+ */
+function lbqa_init() {
+  drupal_add_js(drupal_get_path('module', 'lbqa') .'/changeme.js');
+}
+
+/**
  * Implementation of hook_enable().
  */
 function lbqa_enable() {
