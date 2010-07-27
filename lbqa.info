@@ -5,4 +5,5 @@ description = "Lullabot QA is a <a href='http://drupal.org/project/features'>Fea
 project = "lbqa"
 recommends[] = "feedback"
 recommends[] = "unfuddle_feedback"
+recommends[] = "unfuddle_api"
 recommends[] = "browscap"
